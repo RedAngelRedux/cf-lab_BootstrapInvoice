@@ -1,0 +1,28 @@
+.address {
+    font-size: .8rem;
+    color: blue;
+}
+
+/* @media only screen and (min-width: 768px) {
+    .address {
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address {
+        font-size: 1rem;
+    }
+} */
+
+@media print, screen and (min-width:768px) {
+    .address {
+        font-size: 1rem;
+        color: black;
+    }
+}
+
+@media print {
+    @page { margin: 0; }
+    body { margin: 1.6cm; }
+}
